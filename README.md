@@ -84,22 +84,22 @@ Before installing the system, ensure you have the following software installed o
      - In the terminal, type "npm install"
      - Import .env file with the following properties
 
-       > DB_HOST=
-       > DB_PORT=
-       > DB_USER=
-       > DB_PASS=
-       > DB_NAME=
+       > DB_HOST=  
+       > DB_PORT=  
+       > DB_USER=  
+       > DB_PASS=  
+       > DB_NAME=  
 
-       > PORT=
-       > JWT_SECRET=
-       > EMAIL=
-       > EMAIL_PASS=
+       > PORT=  
+       > JWT_SECRET=  
+       > EMAIL=  
+       > EMAIL_PASS=  
 
-       > FRONTEND_SERVER=
+       > FRONTEND_SERVER=  
 
-       > ADMIN_EMAIL=
-       > ADMIN_USERNAME=
-       > ADMIN_PASSWORD=
+       > ADMIN_EMAIL=  
+       > ADMIN_USERNAME=  
+       > ADMIN_PASSWORD=  
 
      - In the terminal, type "npm run dev"
 
