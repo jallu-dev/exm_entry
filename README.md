@@ -40,7 +40,7 @@ faculty
     3.Lecturer in-charge Operations
         Update eligibility of students
 
-    4.Student	Operations
+    4.Student Operations
         Apply for examination
         Download Admission. (Temporarily disabled)
 
