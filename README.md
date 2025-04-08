@@ -4,7 +4,12 @@ The Examination Entry System is a digital platform designed to streamline univer
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+The Examination Entry System is a digital solution designed to streamline the exam registration and verification process in universities and faculties. The system enables students to apply for exams seamlessly while allowing
+management to verify eligibility based on attendance records and disciplinary actions. It ensures transparency and efficiency in handling exam applications by integrating a structured approval workflow. The system categorizes users into five roles: Admin (Head of the Examination Branch), Dean, Head of Department (HOD), Lecturer in Charge, and
+Students, each with distinct responsibilities to ensure smooth exam management. Students can apply for exams through the system, while the Lecturer inCharge verifies their eligibility based on attendance records. The HOD and Dean can oversees this process, ensuring accuracy and fairness and they can update the eligibility based on key concerns, while the Admin (Head of the Examination Branch) maintains overall system control and print the admission and attendance at the end after all the procedures are done.
+Additionally, the system enables Admin to generate attendance sheets based on verified exam entries, reducing administrative workload and errors. By digitizing exam registration, the system minimizes paperwork, reduces ad
+ministrative workload, and ensures accuracy in exam-related processes.This scalable and user-friendly platform enhances efficiency, reduces manual errors, and ensures a smooth exam management experience for students and
+faculty
 
 ## Overview of the System
 
@@ -30,6 +35,7 @@ An in-depth paragraph about your project and overview of use.
     Document Generation:
         Generate admission cards for approved students.
         Generate attendance sheets for each subject.
+
 ## Getting Started
 
 ### Dependencies
@@ -61,41 +67,46 @@ command to run if program contains helper info
 
 ## Authors
 
-- **2020ICT18**  
-  - Name: I.M.C Jeewantha  
-  - Email: chamithjeewa123@gmail.com  
-  - GitHub: [GitHub Profile](https://github.com/chamithjeewantha)  
+- **2020ICT18**
 
-- **2020ICT24**  
-  - Name: E.W.A.P Egodawitharana  
-  - Email: piumal302@gmail.com  
-  - GitHub: [GitHub Profile](https://github.com/piumal302)  
+  - Name: I.M.C Jeewantha
+  - Email: chamithjeewa123@gmail.com
+  - GitHub: [GitHub Profile](https://github.com/chamithjeewantha)
 
-- **2020ICT48**  
-  - Name: A.I.F Ilma  
-  - Email: ilmaismail029@gmail.com  
-  - GitHub: [GitHub Profile](https://github.com/IlmaIsmail)  
+- **2020ICT24**
 
-- **2020ICT57**  
-  - Name: C.H Hettiarachchi  
-  - Email: chamathkahettiarachchi@gmail.com  
-  - GitHub: [GitHub Profile](https://github.com/Chamathka01)  
+  - Name: E.W.A.P Egodawitharana
+  - Email: piumal302@gmail.com
+  - GitHub: [GitHub Profile](https://github.com/piumal302)
 
-- **2020ICT64**  
-  - Name: M.I.F Ilma  
-  - Email: ifilma2001@gmail.com  
-  - GitHub: [GitHub Profile](https://github.com/Ilmfathima)  
+- **2020ICT48**
 
-- **2020ICT101**  
-  - Name: A.R Wijesuriya  
-  - Email: arwijesuriya.7@gmail.com  
-  - GitHub: [GitHub Profile](https://github.com/arwijesuriya)  
+  - Name: A.I.F Ilma
+  - Email: ilmaismail029@gmail.com
+  - GitHub: [GitHub Profile](https://github.com/IlmaIsmail)
 
-- **2020ICT119**  
-  - Name: L.M Zahran  
-  - Email: zzzahrannnldeen@gmail.com  
-  - GitHub: [GitHub Profile](https://github.com/jallu-dev)  
+- **2020ICT57**
 
+  - Name: C.H Hettiarachchi
+  - Email: chamathkahettiarachchi@gmail.com
+  - GitHub: [GitHub Profile](https://github.com/Chamathka01)
+
+- **2020ICT64**
+
+  - Name: M.I.F Ilma
+  - Email: ifilma2001@gmail.com
+  - GitHub: [GitHub Profile](https://github.com/Ilmfathima)
+
+- **2020ICT101**
+
+  - Name: A.R Wijesuriya
+  - Email: arwijesuriya.7@gmail.com
+  - GitHub: [GitHub Profile](https://github.com/arwijesuriya)
+
+- **2020ICT119**
+  - Name: L.M Zahran
+  - Email: zzzahrannnldeen@gmail.com
+  - GitHub: [GitHub Profile](https://github.com/jallu-dev)
 
 ## Version History
 
