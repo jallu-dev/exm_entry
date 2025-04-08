@@ -13,49 +13,82 @@ faculty
 
 ## Overview of the System
 
-    Administrator Operations:
-        Create Degree Programs.
-        Define Subjects for Degree Programs.
-        Assign Subject In-Charge (Staff).
-        Create Batches for Degree Programs.
-        Add Students to Batches.
+    1.Administrator Operations:
+        Create users
+        Create batches and curriculums
+        Verify/update eligibility
+        Insert medical & resit students
+        Generate examination admission sheet & attendance sheet
+        Generate index numbers for students who do not have them
 
-    Attendance and Exam Entry:
-        Students’ attendance is monitored.
-        Students apply for exams based on attendance eligibility.
+    2.HOD & Dean Operations
+        Update eligibility of students
+        View summary report
 
-    Staff In-Charge Approval:
-        Subject In-Charge reviews attendance.
-        Approve or reject students for exams.
+    3.Lecturer in-charge Operations
+        Update eligibility of students
 
-    Summary Reporting:
-        Generate a summary of approved students per subject.
-        Send the summary to HoD and Dean.
-
-    Document Generation:
-        Generate admission cards for approved students.
-        Generate attendance sheets for each subject.
-
-## Getting Started
+    4.Student	Operations
+        Apply for examination
+        Download Admission. (Temporarily disabled)
 
 ### Dependencies
 
-- Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-- ex. Windows 10
+Before installing the system, ensure you have the following software installed on your computer:
 
-### Installing
-
-- How/where to download your program
-- Any modifications needed to be made to files/folders
+1. Node.js(Latest LTS version) – Required for running the frontend and backend.
+2. npm(Node Package Manager) – Comes with Node.js.
+3. MySQL Server - Required for database management.
+4. phpMyAdmin – (Optional) A graphical interface for MySQL database management
 
 ### Executing program
 
-- How to run the program
-- Step-by-step bullets
+- How to execute the system
 
-```
-code blocks for commands
-```
+  1. To access the system directly ---> https://exm-entry.vercel.app
+  2. To locally setup --->
+     i. Download the project from our github repository (https://github.com/SivaramalingamKirushanth/exm_entry)
+
+     ii. Setup Frontend:
+
+     - In the terminal, type "cd frontend"
+     - In the terminal, type "npm install"
+     - Import .env file with the following properties
+       > NEXT_PUBLIC_CRYPTO_SECRET=""
+     - Import .env.local file with the following properties
+       > BACKEND_SERVER=""
+       > JWT_SECRET=""
+     - In the terminal, type "npm run dev"
+
+     iii. Import the database:
+
+     - Download exam_entry.sql file from backend/db/exam_entry.sql
+     - Import the file into your MySql database
+
+     iv. Setup Backend:
+
+     - In the terminal, type "cd backend"
+     - In the terminal, type "npm install"
+     - Import .env file with the following properties
+
+       > DB_HOST=
+       > DB_PORT=
+       > DB_USER=
+       > DB_PASS=
+       > DB_NAME=
+
+       > PORT=
+       > JWT_SECRET=
+       > EMAIL=
+       > EMAIL_PASS=
+
+       > FRONTEND_SERVER=
+
+       > ADMIN_EMAIL=
+       > ADMIN_USERNAME=
+       > ADMIN_PASSWORD=
+
+     - In the terminal, type "npm run dev"
 
 ## Help
 
