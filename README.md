@@ -5,8 +5,10 @@ The Examination Entry System is a digital platform designed to streamline univer
 ## Description
 
 The Examination Entry System is a digital solution designed to streamline the exam registration and verification process in universities and faculties. The system enables students to apply for exams seamlessly while allowing
-management to verify eligibility based on attendance records and disciplinary actions. It ensures transparency and efficiency in handling exam applications by integrating a structured approval workflow. The system categorizes users into five roles: Admin (Head of the Examination Branch), Dean, Head of Department (HOD), Lecturer in Charge, and
-Students, each with distinct responsibilities to ensure smooth exam management. Students can apply for exams through the system, while the Lecturer inCharge verifies their eligibility based on attendance records. The HOD and Dean can oversees this process, ensuring accuracy and fairness and they can update the eligibility based on key concerns, while the Admin (Head of the Examination Branch) maintains overall system control and print the admission and attendance at the end after all the procedures are done.
+management to verify eligibility based on attendance records and disciplinary actions. It ensures transparency and efficiency in handling exam applications by integrating a structured approval workflow.
+
+The system categorizes users into five roles: Admin (Head of the Examination Branch), Dean, Head of Department (HOD), Lecturer in Charge, and Students, each with distinct responsibilities to ensure smooth exam management. Students can apply for exams through the system, while the Lecturer inCharge verifies their eligibility based on attendance records. The HOD and Dean can oversees this process, ensuring accuracy and fairness and they can update the eligibility based on key concerns, while the Admin (Head of the Examination Branch) maintains overall system control and print the admission and attendance at the end after all the procedures are done.
+
 Additionally, the system enables Admin to generate attendance sheets based on verified exam entries, reducing administrative workload and errors. By digitizing exam registration, the system minimizes paperwork, reduces ad
 ministrative workload, and ensures accuracy in exam-related processes.This scalable and user-friendly platform enhances efficiency, reduces manual errors, and ensures a smooth exam management experience for students and
 faculty
