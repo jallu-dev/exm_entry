@@ -18,7 +18,7 @@ const upload = multer({ storage: multer.memoryStorage() });
 
 const loginLimiter = rateLimit({
   windowMs: 5 * 60 * 1000, // 5 minutes
-  max: 2, // limit to 10 login attempts per IP
+  max: 10, // limit to 10 login attempts per IP
   message: "Too many login attempts. Try again in 5 minutes.",
 });
 
