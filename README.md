@@ -11,6 +11,16 @@ Additionally, the system enables Admin to generate attendance sheets based on ve
 ministrative workload, and ensures accuracy in exam-related processes.This scalable and user-friendly platform enhances efficiency, reduces manual errors, and ensures a smooth exam management experience for students and
 faculty
 
+## Features
+
+    Student exam application submission
+    Eligibility verification by staff (attendance, disciplinary checks)
+    Batch-wise exam entry stats for Heads of Departments
+    Attendance sheet generation post-verification
+    Admin access for record modification and updates
+    Secure login for students, staff, HoDs, and admin
+    Dashboard for managing and monitoring application status
+
 ## Overview of the System
 
     1.Administrator Operations:
