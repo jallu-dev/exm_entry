@@ -59,7 +59,7 @@ Before installing the system, ensure you have the following software installed o
 - How to execute the system
 
   1. To access the system directly ---> https://exm-entry.vercel.app
-  2. To locally setup --->
+  2. To locally setup --->  
      i. Download the project from our github repository (https://github.com/SivaramalingamKirushanth/exm_entry)
 
      ii. Setup Frontend:
@@ -69,7 +69,7 @@ Before installing the system, ensure you have the following software installed o
      - Import .env file with the following properties
        > NEXT_PUBLIC_CRYPTO_SECRET=""
      - Import .env.local file with the following properties
-       > BACKEND_SERVER=""
+       > BACKEND_SERVER=""  
        > JWT_SECRET=""
      - In the terminal, type "npm run dev"
 
