@@ -36,8 +36,30 @@ export const sendBatchNotifications = async () => {
           try {
             await mailer(
               mails,
-              `Action Required: Batch ${batch_code} - Your Access is Open`,
-              `<p>Now you can access the entry forms of Batch ${batch_code}. your access period will be end on ${dealine}</p>`
+              `Action Required: Batch ${batch_code} - Access Now Available`,
+              `
+              <div style="font-family: Arial, sans-serif; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #e0e0e0; border-radius: 10px;">
+                <h2 style="color: #2c3e50;">🔓 Access Granted</h2>
+            
+                <p>Dear Academic Staff,</p>
+            
+                <p>You have been granted access to manage student eligibility details for <strong>Batch ${batch_code}</strong>. Please ensure that all relevant changes are completed before the deadline.</p>
+            
+                <p><strong>Access Deadline:</strong> ${deadline}</p>
+            
+                <p>During this period, you may:</p>
+                <ul>
+                  <li>Review Applied Students</li>
+                  <li>Update Eligibility Status</li>
+                </ul>
+            
+                <p>If you have any questions or encounter issues, please contact the Examination Branch at 
+                  <a href="mailto:${process.env.ADMIN_EMAIL}">${process.env.ADMIN_EMAIL}</a>.
+                </p>
+            
+                <p style="margin-top: 30px;">Thank you for your cooperation.<br/>Examination Branch</p>
+              </div>
+              `
             );
 
             await conn.execute(
