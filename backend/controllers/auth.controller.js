@@ -395,7 +395,7 @@ export const login = async (req, res, next) => {
         expiresIn: remember_me ? "2 days" : "1h",
       });
 
-      // Send response     
+      // Send response
 
       return res
         .cookie("access-token", token, {
