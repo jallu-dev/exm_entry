@@ -2,7 +2,7 @@ import express from "express";
 import dotenv from "dotenv";
 import cookieParser from "cookie-parser";
 import cors from "cors";
-import rateLimit from "express-rate-limit";
+// import rateLimit from "express-rate-limit";
 
 import authRouter from "./routes/auth.route.js";
 import userRoutes from "./routes/user.route.js";
@@ -26,7 +26,7 @@ const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD;
 const app = express();
 app.use(express.json());
 app.use(cookieParser());
-console.log(`Setting CORS for origin: ${FRONTEND_SERVER}`);
+// console.log(`Setting CORS for origin: ${FRONTEND_SERVER}`);
 app.use(
   cors({
     origin: FRONTEND_SERVER,
@@ -70,16 +70,16 @@ const adminRegister = async () => {
 
 await adminRegister();
 
-const generalLimiter = rateLimit({
-  windowMs: 5 * 60 * 1000, // 5 minutes
-  max: 150, // limit each IP to 100 requests per windowMs
-  message: "Too many requests, please try again after 5 minutes.",
-  standardHeaders: true, // Return rate limit info in the `RateLimit-*` headers
-  legacyHeaders: false, // Disable the `X-RateLimit-*` headers
-});
+// const generalLimiter = rateLimit({
+//   windowMs: 5 * 60 * 1000, // 5 minutes
+//   max: 150, // limit each IP to 100 requests per windowMs
+//   message: "Too many requests, please try again after 5 minutes.",
+//   standardHeaders: true, // Return rate limit info in the `RateLimit-*` headers
+//   legacyHeaders: false, // Disable the `X-RateLimit-*` headers
+// });
 
-// Apply rate limiter to all requests
-app.use(generalLimiter);
+// // Apply rate limiter to all requests
+// app.use(generalLimiter);
 
 /////////ALL THE ROUTES
 app.use("/api1/auth", authRouter);
